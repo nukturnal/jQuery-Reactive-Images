@@ -1,0 +1,65 @@
+body {
+	margin: 0;
+	padding: 480px 0 0 0;
+}
+
+#header {
+position: fixed;
+z-index: 5000;
+height: 54px;
+background: url('../images/bg-nav.png') !important;
+top: 0;
+left: 0;
+min-width: 100%;
+z-index: 100;
+}
+
+.header-content {
+width: 940px;
+margin: auto;
+}
+
+#logo {
+float: left;
+}
+
+.nav {
+float: right;
+}
+
+.nav-item {
+font-size: 12px;
+text-align: center;
+padding: 14px 10px 0 10px;
+background: 
+transparent url('/assets/nav-sep.png') no-repeat;
+height: 26px;
+float: left;
+cursor: pointer;
+}
+
+#reactive {
+	position: fixed;
+	min-width: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+#reactive img {
+	opacity:.75;
+	filter:alpha(opacity=75);
+	filter: "alpha(opacity=75)";
+}
+
+#container {
+	background-color: #fff;
+	padding: 50px;
+	-webkit-box-shadow: 0 -5px 20px 
+	rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 -5px 20px rgba(0,0,0,0.5);
+	-ms-box-shadow: 0 -5px 20px rgba(0,0,0,0.5);
+	-o-box-shadow: 0 -5px 20px rgba(0,0,0,0.5);
+	box-shadow: 0 -5px 20px 
+	rgba(0, 0, 0, 0.5);
+}
