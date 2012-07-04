@@ -2,11 +2,9 @@
 
 ## Implementation
 
-	$(window).load(function() {
-		$("#reactive").reactiveImage({
-			height: 500,
-			valign: "middle"
-		});
+	$("#reactive").reactiveImage({
+		height: 500,
+		valign: "middle"
 	});
 	
 ## Properties
